@@ -465,6 +465,8 @@ The following are tools that have bespoke tools for combining learning and contr
 ## Tutorials
 Great tutorials on various ML, Controls, and LBC topics have been developed. So for more hands-on involvment in these methods, see the following tutorials. Several notebooks have also been developed as part of this course to demonstrate various LBC methods so they will be included here.
 - [Awesome Machine Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme)
+- [MATLAB Tech Talk: Data-Driven Control](https://www.mathworks.com/videos/series/learning-based-control.html)
+- [MATLAB Tech Talk: Reinforcement Learning](https://www.mathworks.com/videos/series/reinforcement-learning.html)
 
 ## Applications
 LBC systems have been applied in various fields. The following is a list of repositories that demonstrate use of LBC methods. Primarily, this list contains projects that were developed as part of the aforementioned courses.
@@ -501,8 +503,6 @@ Other documents/videos that might be of interest to those interested in Learning
 - [Reinforcement Learning Resources](https://github.com/datascienceid/reinforcement-learning-resources)
 ### Lectures / Courses
 - [Artemis Lab LBC Lectures](https://www.youtube.com/playlist?list=PLqCrLscdNVX9lmstqRoI6nd22Stwflmtx)
-- [MATLAB Tech Talk: Data-Driven Control](https://www.mathworks.com/videos/series/learning-based-control.html)
-- [MATLAB Tech Talk: Reinforcement Learning](https://www.mathworks.com/videos/series/reinforcement-learning.html)
 - [MATLAB Tech Talk: Control Systems in Practice](https://www.mathworks.com/videos/series/control-systems-in-practice.html)
 - [MATLAB Tech Talk: State Space](https://www.mathworks.com/videos/series/state-space.html)
 - [AA203: Optimal and Learning-Based Control, Stanford University](https://stanfordasl.github.io/aa203/sp2425)
