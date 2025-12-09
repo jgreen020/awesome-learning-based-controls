@@ -33,7 +33,8 @@ Sometimes, a maintainer of an awesome list will ask you to edit your Pull Reques
 ### Addition of Projects
 - Use the following formatting when adding your project to the Applications section:
 ```
-- ***Insert Paper Title***: [[Paper](Insert Paper DOI)][[Repo](Insert Link GitHub Repository)]: Brief Description
+- ***Insert Paper Title***:
+  - Brief Description [[Paper](Insert Paper DOI)][[Repo](Insert Link GitHub Repository)]
 ```
 - Keep your description to 1-2 sentances and include both the application area and the title of applied methods.
 - Title your pull request: 'Add Project [1st author last name] [year]'
