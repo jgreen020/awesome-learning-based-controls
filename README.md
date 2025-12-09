@@ -424,7 +424,7 @@ Learning-Based Control is the intersection of Machine Learning and Control Theor
 - [Liquid Neural Networks](https://arxiv.org/abs/2006.04439)
 - [Liquid Foundation Models](https://arxiv.org/abs/2412.04332)
 #### State-Space Models
-- For an overview and comparison of State-Space Models as of 2024, see [State Space Models as Foundation Models: A Control Theoretic Overview]([2403.16899v1](https://arxiv.org/abs/2403.16899))
+- For an overview and comparison of State-Space Models as of 2024, see [State Space Models as Foundation Models: A Control Theoretic Overview](https://arxiv.org/abs/2403.16899)
 #### Physics-Informed Neural Networks
 - [An Expert's Guide to Training Physics-informed Neural Networks](https://arxiv.org/abs/2308.08468)
 #### Lipschitz Constrained Neural Networks
@@ -461,7 +461,7 @@ Many platforms are available for machine learning and control, and are well summ
 	- [Awesome Robotics](https://github.com/Kiloreux/awesome-robotics#readme)
 ### Specific Tools for Learning-Based Controls
 The following are tools that have bespoke tools for combining learning and controls
-
+- [MATLAB Data-Driven Control](https://www.mathworks.com/solutions/control-systems/data-driven-controls.html#ai-online)
 ## Tutorials
 Great tutorials on various ML, Controls, and LBC topics have been developed. So for more hands-on involvment in these methods, see the following tutorials. Several notebooks have also been developed as part of this course to demonstrate various LBC methods so they will be included here.
 - [Awesome Machine Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme)
