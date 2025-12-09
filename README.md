@@ -340,7 +340,7 @@ System Identification is the process of modeling Dynamic Systems based on data. 
 In systems that are not fully observable, ML methods can be applied in order to reconstruct states required for feedback control. These ML-based-observers can be highly-flexible and reconstruct far more complex state spaces than previously possible with white- or grey-box models.
 - [Observer-based neural networks for flow estimation and control](https://arxiv.org/abs/2511.02995)
 - [Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation](https://arxiv.org/abs/2503.11999)
-- [Large Pre-Trained Models and Few-Shot Fine-Tuning for Virtual Metrology: A Framework for Uncertainty-Driven Adaptive Process Control in Semiconductor Manufacturing]((https://doi.org/10.1109/TASE.2025.3568010))
+- [Large Pre-Trained Models and Few-Shot Fine-Tuning for Virtual Metrology: A Framework for Uncertainty-Driven Adaptive Process Control in Semiconductor Manufacturing](https://doi.org/10.1109/TASE.2025.3568010)
 ### ML for High-Level Control
 Autonomous systems may already have well-performing controllers for motion control (_e.g._ 6-DoF Robots) but lack the ability to plan reference trajectories to perform desired tasks. Reinforcement Learning is a possible solution, but it requires bespoke reward design. Methods based on LLMs have emerged to allow for natural language commands to be interpreted by an autonomous system and converted into reference trajectories to allow them to perform generalized tasks.
 #### Vision-Language-Action Models
