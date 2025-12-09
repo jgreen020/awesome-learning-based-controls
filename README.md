@@ -472,19 +472,32 @@ Great tutorials on various ML, Controls, and LBC topics have been developed. So 
 LBC systems have been applied in various fields. The following is a list of repositories that demonstrate use of LBC methods. Primarily, this list contains projects that were developed as part of the aforementioned courses.
 ### ME7194 Spring 2025 Projects
 ### ME6193 Autumn 2025 Projects
-- ***A Hybrid CLF-CBF-QP Framework for Autonomous Driving***: A framework for combining a low-level controller with Control Lyapunov Functions (CLF), Control Barrier Functions (CBF), and Quadratic Programming (QP) with a High-Level Deep Reinforcement Learning Agent using Deep Q Networks (DQN) to impose safety and stability constraints for autonomous vehicle driving. [[Paper]()][[Repo]()]
-- ***Traction Electric Machine Speed Synchronization Under Uneven Torque Allocation for Heavy Duty Electric Vehicles***: Use a Physics-Informed Neural Network to predict motor output speed from the reference speed and toque, and use a speed synchronizer to adjust the reference speeds to ensure motor output speeds are the same even under uneven torques. [[Paper]()][[Repo]()]
-- ***Learning Structured Skills for Bipedal Navigation via a Mixture-of-Experts Decision Transformer***: By breaking up bipedal robot tasks and training a decision transformer to perform each task (an expert), a mixture-of-experts model can be used to improve performance on each individual task. Uses K-Means Clustering and a Conditional Autoencoder for skill clustering and embedding. [[Paper]()][[Repo]()]
-- ***RL-based Engine Control for Heavy Duty Series HEVs***: By adding oscillitory dynamics to the optimizer for training of RL models, we may be able to explore the space more efficiently. Application to Hybrid-Electric Power Train Control. [[Paper]()][[Repo]()]
-- ***Hierarchical Deep-Reinforcement-Learning-Based Manuever Decision-Making Process***: Use an RL-Agent (PPO) to make manuever decisions (lane change, stop, move forward, etc.) based on perception of the environment for Autonomous Vehicles. [[Paper]()][[Repo]()]
-- ***Vision-Language-Action Models for General Purpose Robotics***: Large foundation Vision-Language-Action models are too slow for real-time control, so they use hierarchical models to seperate Semantic Planning (High-Level), Reactive Control (Low-Level), and Hardware Control. [[Paper]()][[Repo]()]
-- ***Syntheic Data Generation for Cross-Task generalization in VLA models***: Generation of synthetic data for training Vision-Language-Action models using diffusion models often results in physically infeasible results, so they use a reasoning model (Cosmos Predict) to enforce realistic physics in the generated videos. [[Paper]()][[Repo]()]
-- ***A Sliding Window Risk Balanced Reinforcement Learning Framework with Control Barrier Function Guarantees***: Combining Proximal Policy Optimization and Quadratic Programming with Control Barrier Functions to allow for safe control of autonomous vehicles with adaptive risk-taking behavior. [[Paper]()][[Repo]()]
-- ***Deep-Transformer Q-Network for Energy Mangement Strategy for Series Hybrid Agricultural Tractor***: Application of Deep-Transformer Q-Network to Energy Management in Tractors. Comparison to DQL, DQN, DDQN. Tractors are highly versatile equipment with very different constraints from road vehicles, which makes them a very interesting system to control. [[Paper]()][[Repo]()]
-- ***Deep Koopman Operator Autoencoder for Control of 5-DOF RABBIT model***: Combination of Koopman operator theory with Autoencoder networks to allow for more accurate learning of dynamics in nonlinear systems. [[Paper]()][[Repo]()]
-- ***Dynamic Model Weighting with Deep Q Networks***: Using RL (DQN) to dynamically adjust weights in Model Fusion of Variational Graph Autoencoder and Graph Transformer depending on current state.  Application to CAN network adversarial message rejection. Also implements Knowledge Distillation techniques. [[Paper]()][[Repo]()]
-- ***End-to-end Learning-Based Control for Autonomous Vehicles via Reinforcement Learning***: Instead of setting up a modular pipeline for each stage of planning and control for an AV, use RL methods (Proximal Policy Optimization and Soft Actor-Critic) to allow for end-to-end control. [[Paper]()][[Repo]()]
-- ***Learning-Based Powertrain Control for Electrified Powertrains with Integration of Aging of Battery and Aftereatment System***: Integrate the aging of components into the control of the electrified powertrain using Group-Relative Policy Optimization. [[Paper]()][[Repo]()]
+- ***A Hybrid CLF-CBF-QP Framework for Autonomous Driving***:
+	- A framework for combining a low-level controller with Control Lyapunov Functions (CLF), Control Barrier Functions (CBF), and Quadratic Programming (QP) with a High-Level Deep Reinforcement Learning Agent using Deep Q Networks (DQN) to impose safety and stability constraints for autonomous vehicle driving. [[Paper]()][[Repo]()]
+- ***Traction Electric Machine Speed Synchronization Under Uneven Torque Allocation for Heavy Duty Electric Vehicles***
+	- Use a Physics-Informed Neural Network to predict motor output speed from the reference speed and toque, and use a speed synchronizer to adjust the reference speeds to ensure motor output speeds are the same even under uneven torques. [[Paper]()][[Repo]()]
+- ***Learning Structured Skills for Bipedal Navigation via a Mixture-of-Experts Decision Transformer***:
+	- By breaking up bipedal robot tasks and training a decision transformer to perform each task (an expert), a mixture-of-experts model can be used to improve performance on each individual task. Uses K-Means Clustering and a Conditional Autoencoder for skill clustering and embedding. [[Paper]()][[Repo]()]
+- ***RL-based Engine Control for Heavy Duty Series HEVs***:
+	- By adding oscillitory dynamics to the optimizer for training of RL models, we may be able to explore the space more efficiently. Application to Hybrid-Electric Power Train Control. [[Paper]()][[Repo]()]
+- ***Hierarchical Deep-Reinforcement-Learning-Based Manuever Decision-Making Process***:
+	- Use an RL-Agent (PPO) to make manuever decisions (lane change, stop, move forward, etc.) based on perception of the environment for Autonomous Vehicles. [[Paper]()][[Repo]()]
+- ***Vision-Language-Action Models for General Purpose Robotics***:
+	- Large foundation Vision-Language-Action models are too slow for real-time control, so they use hierarchical models to seperate Semantic Planning (High-Level), Reactive Control (Low-Level), and Hardware Control. [[Paper]()][[Repo]()]
+- ***Syntheic Data Generation for Cross-Task generalization in VLA models***:
+	- Generation of synthetic data for training Vision-Language-Action models using diffusion models often results in physically infeasible results, so they use a reasoning model (Cosmos Predict) to enforce realistic physics in the generated videos. [[Paper]()][[Repo]()]
+- ***A Sliding Window Risk Balanced Reinforcement Learning Framework with Control Barrier Function Guarantees***:
+	- Combining Proximal Policy Optimization and Quadratic Programming with Control Barrier Functions to allow for safe control of autonomous vehicles with adaptive risk-taking behavior. [[Paper]()][[Repo]()]
+- ***Deep-Transformer Q-Network for Energy Mangement Strategy for Series Hybrid Agricultural Tractor***:
+	- Application of Deep-Transformer Q-Network to Energy Management in Tractors. Comparison to DQL, DQN, DDQN. Tractors are highly versatile equipment with very different constraints from road vehicles, which makes them a very interesting system to control. [[Paper]()][[Repo]()]
+- ***Deep Koopman Operator Autoencoder for Control of 5-DOF RABBIT model***:
+	- Combination of Koopman operator theory with Autoencoder networks to allow for more accurate learning of dynamics in nonlinear systems. [[Paper]()][[Repo]()]
+- ***Dynamic Model Weighting with Deep Q Networks***:
+	- Using RL (DQN) to dynamically adjust weights in Model Fusion of Variational Graph Autoencoder and Graph Transformer depending on current state.  Application to CAN network adversarial message rejection. Also implements Knowledge Distillation techniques. [[Paper]()][[Repo]()]
+- ***End-to-end Learning-Based Control for Autonomous Vehicles via Reinforcement Learning***:
+	- Instead of setting up a modular pipeline for each stage of planning and control for an AV, use RL methods (Proximal Policy Optimization and Soft Actor-Critic) to allow for end-to-end control. [[Paper]()][[Repo]()]
+- ***Learning-Based Powertrain Control for Electrified Powertrains with Integration of Aging of Battery and Aftereatment System***:
+	- Integrate the aging of components into the control of the electrified powertrain using Group-Relative Policy Optimization. [[Paper]()][[Repo]()]
 ## Further Reading
 Other documents/videos that might be of interest to those interested in Learning-Based Controls.
 ### Awesome Lists
